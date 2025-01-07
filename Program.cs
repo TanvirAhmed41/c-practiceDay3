@@ -6,14 +6,11 @@ class Test{
 
     public static void Main(string[] args){
 
-        Console.WriteLine("Enter your number: ");
-        int num = Convert.ToInt32(Console.ReadLine());
-        int fact = 1;
-        for (int i = 1; i <= num ; i++){
-            fact = fact * i;
-        }
-        Console.WriteLine($"Factorial of({num})= {fact}");
-
+      Console.Write ("Enter your number: ");
+      int number = Convert.ToInt32(Console.ReadLine());
+      for (int i = 1; i <=10 ; i++){
+        Console.WriteLine($"{number} X {i} = {number*i}");
+      }
 
     }
 
